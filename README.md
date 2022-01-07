@@ -1,15 +1,15 @@
 # strapi-provider-upload-cloudflare
 
-## Resources
+[![npm version](https://img.shields.io/npm/v/strapi-provider-upload-cloudflare.svg)](https://www.npmjs.org/package/strapi-provider-upload-google-cloud-storage)
+[![npm downloads](https://img.shields.io/npm/dm/strapi-provider-upload-cloudflare.svg)](https://www.npmjs.org/package/strapi-provider-upload-google-cloud-storage)
 
-- [LICENSE](LICENSE)
+**Non-Official** Cloudflare Upload Provider for Strapi
 
-## Links
+This has only been tested with Strapi 4.
 
-- [Strapi website](https://strapi.io/)
-- [Strapi documentation](https://docs.strapi.io)
-- [Strapi community on Discord](https://discord.strapi.io)
-- [Strapi news on Twitter](https://twitter.com/strapijs)
+To find your Cloudflare accountId and apiKey, log into Cloudflare and click "Images". On that page you should see "Account ID" under Developer Resources. For apiKey, if you click the "Use API" tab you'll see a link next to "API Token" to generate an apiKey. The only permission that API Token needs is "Account.Cloudflare Images".
+
+If you have multiple image variants the first one will be selected. If you'd like to be able to pick a specific image variant, make an issue or pull-request. :) 
 
 ## Installation
 
@@ -47,9 +47,7 @@ module.exports = ({ env }) => ({
 });
 ```
 
-To find your Cloudflare accountId and apiKey, log into Cloudflare and click "Images". On that page you should see "Account ID" under Developer Resources. Additionally, if you click the "Use API" tab you'll see a link next to "API Token" to generate an apiKey. The only permission that API Token needs is "Account.Cloudflare Images".
-
-If you have multiple image variants the first one will be selected. If you'd like to be able to pick a specific image variant, make an issue or pull-request. :) 
+To get your accountId and apiKey see the top of this README.
 
 ### Security Middleware Configuration
 
@@ -77,3 +75,14 @@ module.exports = [
   // ...
 ];
 ```
+
+## Resources
+
+- [LICENSE](LICENSE)
+
+## Links
+
+- [Strapi website](https://strapi.io/)
+- [Strapi documentation](https://docs.strapi.io)
+- [Strapi community on Discord](https://discord.strapi.io)
+- [Strapi news on Twitter](https://twitter.com/strapijs)
