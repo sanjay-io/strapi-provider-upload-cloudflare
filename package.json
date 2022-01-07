@@ -10,8 +10,16 @@
         "images",
         "strapi"
     ],
+    "main": "./lib",
+    "directories": {
+        "lib": "./lib"
+    },
+    "devDependencies": {},
+    "homepage": "https://github.com/sanjay-io/strapi-provider-upload-cloudflare#readme",
+    "bugs": {
+        "url": "https://github.com/sanjay-io/strapi-provider-upload-cloudflare/issues"
+    },
     "description": "Strapi provider for uploading to Cloudflare Images",
-    "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
