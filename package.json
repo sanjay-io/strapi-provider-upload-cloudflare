@@ -1,6 +1,6 @@
 {
     "name": "strapi-provider-upload-cloudflare",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "maintainers": [
         "s.thakur.dev@gmail.com"
     ],
@@ -20,5 +20,8 @@
     "dependencies": {
         "axios": "^0.24.0",
         "form-data": "^4.0.0"
+    },
+    "strapi": {
+        "isProvider": true
     }
 }
