@@ -1,6 +1,6 @@
 {
     "name": "strapi-provider-upload-cloudflare",
-    "version": "4.2.0",
+    "version": "4.3.0",
     "maintainers": [
         "s.thakur.dev@gmail.com"
     ],
